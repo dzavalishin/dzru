@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /assets/cache/
+Disallow: /assets/docs/
+Disallow: /assets/export/
+Disallow: /assets/import/
+Disallow: /assets/modules/
+Disallow: /assets/plugins/
+Disallow: /assets/snippets/
+Disallow: /install/
+Disallow: /manager/
+Disallow: /?
+Disallow: /*?
+Disallow: /index.php
+Host: dz.ru
+Sitemap: https://dz.ru/sitemap.xml

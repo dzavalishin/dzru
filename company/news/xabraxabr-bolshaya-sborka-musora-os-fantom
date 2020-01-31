@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Большая сборка мусора ОС Фантом</title>
+    <base href="https://dz.ru/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="/assets/template/style.css">
+<link rel="icon" href="upload/favicon.png" type="image/png">
+<link rel="shortcut icon" href="upload/favicon.png" type="image/png">
+<meta name="yandex-verification" content="482e9ec138403639" />
+<meta name="verify-v1" content="4t8U6paTJ3k+hiUsl4tjJ/BF2qdxAACGrmHdn8C+H/I=" />
+<meta name="cmsmagazine" content="937ccc838a11f06e64779869cbd3c9b9" />
+<meta name="google-site-verification" content="VEc88_AHaoWW292tYQiEZlKSenhYJVPH55uJD-WWUFk" />
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/assets/template/pushy.css">
+
+<meta content="Алгоритм сборки мусора для операционной системы Фантом. Задачи, решения и видимые препятствия в посте Дмитрия Завалишина на Хабрахабр." name="description">
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:type" content="Сборка мусора" />
+<meta property="og:title" content="Большая сборка мусора ОС Фантом" />
+<meta property="og:description" content="Алгоритм сборки мусора для операционной системы Фантом. Задачи, решения и видимые препятствия в посте Дмитрия Завалишина на Хабрахабр." />
+<meta property="og:url" content="https://dz.ru/company/news/xabraxabr-bolshaya-sborka-musora-os-fantom" />
+<meta property="og:site_name" content="Digital Zone — разработчик многофункциональных информационных систем, мобильных и веб-решений" />
+<meta property="og:updated_time" content="2017-07-03T16:07:11+03:00" />
+<meta property="article:publisher" content="https://www.facebook.com/dz.ltd/?fref=nf" />
+<meta property="article:section" content="news" />
+<meta property="article:published_time" content="2017-07-03T15:59:00+03:00" />
+<meta property="article:modified_time" content="2017-07-03T16:07:11+03:00" />
+<meta property="og:image" content="https://dz.ru/upload/news/broom-1837434_960_7202.jpg" />
+<link rel="image_src" href="https://dz.ru/upload/news/broom-1837434_960_7202.jpg" type="image/jpeg" />
+
+<link rel="next" href="company/news/xabraxabr-bolshaya-sborka-musora-os-fantom?page=2"/>
+</head>
+<body>
+<div class="content inner-page inner-page_news">
+<header class="main-header">
+    <div class="main-header__container clearfix">
+        <a href="/" class="main-header__logo">
+            <img src="img/dz.svg" style="width: 70px; height: 70px;" alt="" class="main-header__logo-img">
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu__list"><li class="main-menu__item first active"><a href="company/" class="main-menu__link" >О компании</a><ul class="menu__submenu level_1"><li class="menu__submenu-item"><a href="company/news/" class="menu__submenu__link" >Новости</a></li><li class="menu__submenu-item"><a href="company/blog/" class="menu__submenu__link" >Блог</a></li><li class="menu__submenu-item"><a href="company/clients/" class="menu__submenu__link" >Клиенты</a></li><li class="menu__submenu-item"><a href="company/partners/" class="menu__submenu__link" >Партнеры</a></li><li class="menu__submenu-item"><a href="company/persons/" class="menu__submenu__link" >Руководство</a></li><li class="menu__submenu-item"><a href="company/jobs/" class="menu__submenu__link" >Вакансии</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="company/jobs/java-senior-razrabotchik-(kazan)-17.08/" class="menu__submenu__link" >Java Senior разработчик (Казань)</a></li><li class="menu__submenu-item"><a href="company/jobs/vedushhij-sistemnyij-analitik-web" class="menu__submenu__link" >Ведущий системный аналитик (Москва)</a></li><li class="menu__submenu-item"><a href="company/jobs/net-developer18-92" class="menu__submenu__link" >.Net Developer (Москва)</a></li><li class="menu__submenu-item"><a href="company/jobs/java-middle-developer" class="menu__submenu__link" >Java Middle Developer</a></li><li class="menu__submenu-item"><a href="company/jobs/java-middle-developer-(ufa)" class="menu__submenu__link" >Java Middle Developer (Уфа)</a></li></ul></li></ul></li><li class="main-menu__item"><a href="projects/" class="main-menu__link" >Проекты</a></li><li class="main-menu__item"><a href="services/" class="main-menu__link" >Услуги</a><ul class="menu__submenu level_1"><li class="menu__submenu-item"><a href="services/solutions/" class="menu__submenu__link" >Разработка Информационных систем</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/solutions/erp-systems" class="menu__submenu__link" >ERP-системы</a></li><li class="menu__submenu-item"><a href="services/solutions/gis-systems/" class="menu__submenu__link" >Разработка ГИС-систем</a></li><li class="menu__submenu-item"><a href="services/solutions/bi-systems" class="menu__submenu__link" >Разработка BI систем</a></li><li class="menu__submenu-item"><a href="services/solutions/integrated-solutions" class="menu__submenu__link" >Разработка интеграционных решений</a></li><li class="menu__submenu-item"><a href="services/solutions/scada-systems" class="menu__submenu__link" >Разработка Scada систем</a></li><li class="menu__submenu-item"><a href="services/solutions/upravlenie-mobilnyim-personalom" class="menu__submenu__link" >Управление мобильным персоналом</a></li><li class="menu__submenu-item"><a href="services/solutions/user-interfejsyi-dlya-scada-sistem" class="menu__submenu__link" >User-интерфейсы для SCADA-систем</a></li><li class="menu__submenu-item"><a href="services/solutions/vyisokonagruzhennyie-informaczionnyie-sistemyi" class="menu__submenu__link" >Высоконагруженные информационные системы</a></li></ul></li><li class="menu__submenu-item"><a href="services/web/" class="menu__submenu__link" >Веб-разработка</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/web/vizualnyij-poisk-dlya-internet-magazinov" class="menu__submenu__link" >Визуальный поиск для интернет-магазинов</a></li><li class="menu__submenu-item"><a href="services/web/sozdanie-marketplejsa-2" class="menu__submenu__link" >DZ.Market: Технологическая платформа для магазинов и маркетплейсов</a></li><li class="menu__submenu-item"><a href="services/web/e-commerce" class="menu__submenu__link" >E-commerce проекты (решения для интернет-магазинов)</a></li><li class="menu__submenu-item"><a href="services/web/sistemyi-samoobsluzhivaniya-(lichnyij-kabinet)" class="menu__submenu__link" >Системы самообслуживания (личный кабинет)</a></li></ul></li><li class="menu__submenu-item"><a href="services/mobile/" class="menu__submenu__link" >Мобильная разработка</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/mobile/ios-mobile-apps-development" class="menu__submenu__link" >Разработка мобильных приложений под IOS</a></li><li class="menu__submenu-item"><a href="services/mobile/razrabotka-krossplatformennyh-mobilnyh-prilozheniy" class="menu__submenu__link" >Разработка кроссплатформенных мобильных приложений</a></li><li class="menu__submenu-item"><a href="services/mobile/android-mobile-apps-development" class="menu__submenu__link" >Разработка мобильных приложений под Android</a></li></ul></li><li class="menu__submenu-item"><a href="services/consulting/" class="menu__submenu__link" >Сервисы</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/consulting/support" class="menu__submenu__link" >Техническая поддержка</a></li><li class="menu__submenu-item"><a href="services/consulting/outstaffing" class="menu__submenu__link" >Аутстаффинг</a></li></ul></li><li class="menu__submenu-item"><a href="services/frequency" class="menu__submenu__link" >Выделение полосы радиочастот</a></li><li class="menu__submenu-item"><a href="services/konstruktor-it-reshenij-aprentis" class="menu__submenu__link" >Конструктор ИТ-решений Апрентис</a></li></ul></li><li class="main-menu__item"><a href="os-phantom" class="main-menu__link" >ОС «Фантом»</a></li><li class="main-menu__item last"><a href="contacts" class="main-menu__link" >Контакты</a></li></ul>
+        </nav>
+        <button class="menu-btn"><span>&#9776;</span></button>
+        <div class="main-header__right">
+<div style="float:  left; padding:  11px 20px;">
+  <a href="/en" style="color: #fff;">EN</a> <span style="color: #fff;">/ RU</span>
+</div>
+            <div class="callback" data-toggle="modal" data-target="#myModal">Свяжитесь с нами</div>
+            <div class="main-header__contacts">
+                <a href="tel:+74952257693" onclick="ga_event('phone')" class="main-header__contacts-item">
+        +7 (495) 225-76-93
+        </a>
+                <a href="mailto:sales@dz.ru" onclick="ga_event('mailto')" class="main-header__contacts-item main-header__contacts-item_style-mail">sales@dz.ru</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade callback-modal" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content first">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Обратная связь</h4>
+            </div>
+            <div class="modal-body">
+                <form class="feedback-form">
+                    <div>
+                        <label for="name">ФИО:*</label>
+                        <input type="text" placeholder="введите текст" id="name">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="company">Компания:*</label>
+                        <input type="text" placeholder="введите текст" id="company">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="phone">Контактный телефон:* </label>
+                        <input type="text" placeholder="введите текст" id="phone">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="email">Контактный email:* </label>
+                        <input type="text" placeholder="введите текст" id="email">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="message">Сообщение:* </label>
+                        <textarea class="message"></textarea>
+                        <div class="error-message"></div>
+                    </div>
+          <div>
+            <label class="tersm-label" for="terms">Подтверждаю согласие с <a href="/terms">условиями</a> обработки моих персональных данных* </label>
+            <input type="checkbox" required name="terms" id="terms">
+            <div class="error-message"></div>
+          </div>
+
+                    <p class="notify">*- обязательные поля</p>
+                    <p class="result"></p>
+                    <button class="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+        <div class="modal-content two">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <img src="/img/ok-icon.png" alt="">
+                <h4>Ваша заявка принята</h4>
+            </div>
+            <div class="modal-body">
+                <p>Спасибо! Наш менеджер свяжется с вами в ближайшее время</p>
+                <button class="submit" data-dismiss="modal" aria-label="Close">Назад</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+        <ul class="main-menu__list"><li class="main-menu__item first active"><a href="company/" class="main-menu__link" >О компании</a><ul class="menu__submenu"><li class="menu__submenu-item"><a href="company/news/" class="menu__submenu__link" >Новости</a></li><li class="menu__submenu-item"><a href="company/blog/" class="menu__submenu__link" >Блог</a></li><li class="menu__submenu-item"><a href="company/clients/" class="menu__submenu__link" >Клиенты</a></li><li class="menu__submenu-item"><a href="company/partners/" class="menu__submenu__link" >Партнеры</a></li><li class="menu__submenu-item"><a href="company/persons/" class="menu__submenu__link" >Руководство</a></li><li class="menu__submenu-item"><a href="company/jobs/" class="menu__submenu__link" >Вакансии</a></li></ul></li><li class="main-menu__item"><a href="projects/" class="main-menu__link" >Проекты</a></li><li class="main-menu__item"><a href="services/" class="main-menu__link" >Услуги</a><ul class="menu__submenu"><li class="menu__submenu-item"><a href="services/solutions/" class="menu__submenu__link" >Разработка Информационных систем</a></li><li class="menu__submenu-item"><a href="services/web/" class="menu__submenu__link" >Веб-разработка</a></li><li class="menu__submenu-item"><a href="services/mobile/" class="menu__submenu__link" >Мобильная разработка</a></li><li class="menu__submenu-item"><a href="services/consulting/" class="menu__submenu__link" >Сервисы</a></li><li class="menu__submenu-item"><a href="services/frequency" class="menu__submenu__link" >Выделение полосы радиочастот</a></li><li class="menu__submenu-item"><a href="services/konstruktor-it-reshenij-aprentis" class="menu__submenu__link" >Конструктор ИТ-решений Апрентис</a></li></ul></li><li class="main-menu__item"><a href="os-phantom" class="main-menu__link" >ОС «Фантом»</a></li><li class="main-menu__item last"><a href="contacts" class="main-menu__link" >Контакты</a></li></ul>
+    </div>
+</nav>
+
+<div class="site-overlay"></div>
+<main>
+  <div class="news-detail">
+    <div class="news-detail-item">
+        <img src="upload/news/broom-1837434_960_7202.jpg" class="news-detail-item__img">
+        <div class="news-detail-item__content">
+          <div class="news-detail-item__date">03.07.2017</div>
+          <h1>Хабрахабр: большая сборка мусора ОС Фантом </h1>
+<p> Пост о принятой идее для сборки мусора: сочетании быстрого, детерминированного инструмента с медленным, но точным. О развитии алгоритмов, видимых препятствиях и способах их преодоления можно прочесть <a href='https://habrahabr.ru/post/331974/'>здесь</a> или ниже: </p>
+
+<br>
+
+<p>Эта статья — продолжение, начало <a href='https://habrahabr.ru/post/281236/'>здесь</a>. Для тех, кто не кликнул на ссылку, краткая вводная:</p>
+
+<p>Мы обсуждаем сборку мусора в операционной системе Фантом, то есть в среде виртуальной (байткод-) машины, работающей в персистентной оперативной памяти. Размер персистентной памяти — порядка размера диска, то есть единицы терабайт на сегодня и, потенциально, десятки и сотни терабайт завтра. </p>
+
+<p>Поскольку речь идёт о виртуальной памяти, то существенная часть объектов в любом случае находится не в оперативной памяти, независимо от того, какой алгоритм и вообще подход мы избрали. То есть — стоимость доступа к объекту велика. Это, в общем случае, дисковая операция.</p>
+
+<p>Кроме того, следует ожидать, что в сетевой среде совокупности таких виртуальных машин будут обмениваться прокси-объектами, то есть будет существовать граф объектов, растянутый на много машин в сети и, конечно, во всём этом кошмаре потенциально потребуется уметь собирать мусор не только на одной машине, но и по сети.</p>
+<br>
+
+<p><b>Принятая мной идея схемы сборки мусора в такой среде выглядит как совокупность двух сборщиков. </b></p>
+<br>
+<p>Первый — быстрый, детерминированный, но не гарантирующий 100% собираемость. В настоящее время он реализован на принципе подсчёта числа ссылок на объект. Неидеальная, но достаточно простая и предсказуемая модель.</p>
+<br>
+<p>Второй — медленный, недетерминированный (трудно предсказать время работы), но точный и бескомпромиссный. В традиционной среде такой сборщик требовал бы остановки мира (stop the world), но есть трюк — если сборку вести на полной копии состояния системы, то весь собранный в копии мусор будет мусором также и в более поздней версии того же состояния, что бы с ней ни происходило. Прелесть подхода в том, что Фантом реализует персистентность именно через создание «снапшотов» — полных копий состояния объектной памяти виртуальной машины. То есть — среда, в которой можно спокойно и рассудительно собирать мусор уже есть.</p>
+<br>
+<p>По сути дела в этот момент задача кажется тривиальной — на «обездвиженном пациенте» собирать мусор можно самым простым и незатейливым способом. Да? Похоже, что нет.</p>
+<br>
+<p>Вопрос первый — хранение промежуточной информации о состоянии сборки. Да и её объём. Мы должны предполагать, что ситуация ужасна и система сумела загнать себя в угол, истратив всё дисковое пространство. Сколько именно мы должны резервировать для сборщика, чтобы он смог закончить работу?</p>
+<br>
+<p>Вопрос второй — рестартуемость алгоритма. Было бы заманчиво реализовать сборщик как штатную программу под Фантом, которая, следовательно, живёт в персистентной памяти и перезапуски ОС для неё незаметны, всё состояние программы сохраняется и сборка мусора просто продолжается дальше после рестарта системы. Но в силу первого требования такая реализация может быть опасна — при нехватке памяти её может «доесть» пользовательский процесс и работа сборщика мусора будет остановлена. Это бы решалось через квотирование выделения памяти, но в текущей версии ОС его нет, ну и в целом решение выглядит очень изящно, но с точки зрения отладки окажется, скорее всего, похожим на ад.</p>
+<br>
+<p>Следовательно, хорошо бы опереть сборщик мусора на некоторую простую структуру данных, которую легко хранить и обрабатывать в линейном виде. Например — односвязный список, организованный как task list, из которого алгоритм вынимает атомарные задачи и в который добавляет задачи в процессе решения «вынутой» задачи.</p>
+<br>
+<p>При этом хорошо бы избежать модификации оригинального снапшота (копии памяти системы), и обновление самого списка сделать атомарным с тем, чтобы выключение алгоритма в любой точке не приводило к сбою.</p>
+<br>
+<p>В целом напрашивается такая наивная реализация: список необойдённых объектов roots, список посещённых объектов visited, и алгоритм, который сводится к:</p>
+<ul>
+<li>Для пустого roots и visited положить в него объект по адесу ноль
+<li>Для непустого — прочитать и удалить адрес объекта, если его нет в visited — добавить его в visited, добавить в roots всех его детей
+<li>Для пустого roots и непустого visited — пройти линейно все объекты в адресном пространстве снапшота, если они не встречаются в visited — пометить их как мусор в актуальном адресном пространстве (этот процесс тоже можно сделать рестартуемым, если записывать время от времени адрес памяти, который мы прошли)
+</ul>
+<br>
+<p>Естественно, это очень неэффективный алгоритм, но его можно оптимизировать довольно тривиальным путём. Например, так: roots делаем не очередью, а стеком и хвост этого стека храним в памяти, при этом большое количество обходов leaf objects будет происходить без модификации дисковой части этого стека. Важно лишь чтобы в дисковую копию объекты попадали только целиком и уходили из неё только после обхода всех детей.</p>
+<br>
+<p>Проблема в том, что каждый шаг этого алгоритма требует просмотра всего visited, что потенциально — крушение всех надежд, фиаско. </p>
+<br>
+<p>Беда ещё и в том, что visited нельзя кешировать в памяти — его обязательно надо просмотреть целиком. Напрашивается очевидная идея — сделать его не списком, а деревом, отсортированным по адресу объекта. Тогда поиск объекта в дереве сократится логарифмически, и, главное — фрагменты дерева можно кешировать, поскольку полный перебор не нужен.</p>
+<br>
+<p>Отдельный вопрос возникает в случае отказа дискового ввода-вывода для какой-либо страницы. Строго говоря, в такой ситуации сборка мусора вообще невозможна. Хотя для данного снапшота пропадание страницы (и, следовательно, находящихся в ней ссылок) делает часть объектов недоступными, то есть фактическим мусором, было бы недальновидно просто так взять и всё это уничтожить.</p>
+<br>
+<p>Во-первых, хорошо бы иметь некоторый аналог lost+found для таких ситуаций. Хотя и совершенно неясно, как его реализовать. Во-вторых, в актуальной работающей системе соответствующая страница может быть вполне жива. Поэтому справедливо было бы сделать вот как: проверить, есть ли эта страница в более поздних шотах или в памяти. Если есть в памяти — форсировать её помещение в снапшот, даже если она не менялась (обычно Фантом неизменившиеся страницы, конечно, не пишет повторно), остановить сборку и рестартовать её на более позднем снапшоте. Если же не повезло и страницы нигде нет, включить режим восстановления и по окончании обычной сборки эвристически поискать в мусоре поддеревья объектов ощутимого размера, которые из мусора исключить и «подвесить» в специальное место в объектной иерархии.</p>
+<br>
+<p>Что ещё важно? </p>
+<br>
+<p>В целом подсистема виртуальной персистентной памяти Фантома и его же виртуальная байткод-машина (объектная среда) ни черта друг про друга не знают. Вторая живёт в первой. И всё.</p>
+<br>
+<p>Но один достаточно типовой случай, который нуждается в связке между ними. Этот случай выглядит просто: между двумя снапшотами программа в ОС Фантом выделяет, использует и освобождает пару гигабайт объектов. Например, обсчитывает графику и в процессе создаёт временные данные. К началу снапшота они не нужны и неактуальны. Но память, в которой они лежали, «потрогана», модифицировалась. С точки зрения снапшоттера это — повод записать такую память в снапшот. В реальности её содержимое уже никому не интересно и, более того, должно быть обнулено от греха. Было бы логично при освобождении большого участка памяти сообщить пейджинговой подсистеме, что этот участок не только не dirty, а и вообще не нужен и сохранять его не нужно. А при восстановлении со снапшота его нужно читать как страницу нулей.</p>
+<br>
+<p>Это опять кажется тривиальным, но — нет. В предыдущей статье говорилось о проблеме удаления объектов по обнулению счётчика ссылок и о том, что делать это можно только после прохода всеми нитями границы инструкции виртуальной машины.</p>
+<br>
+<p>Технически самый простой способ это реализовать — сделать удаление после снапшота.</p>
+<br>
+<p>Почему? Потому что снапшот гарантированно приостанавливает все нити на границе инструкции байткода. Почему после, а не во время? Потому что синхронную часть снапшота надо делать бегом, чтобы она была незаметна для работающих программ.</p>
+<br>
+<p>А после — поздно, потому что тогда «ненужные» страницы, всё же, попадут в снапшот.</p>
+<br>
+<p>В итоге это означает, что нужно выполнить не очень очевидную цепочку операций: </p>
+
+<ol>
+<li>Приостановить все треды на границе инструкции и сразу «отпустить» их
+<li>Провести освобождение объектов с нулевым счётчиком ссылок, которые были заявлены на удаление до этой остановки (проверяя, что счётчик всё ещё нулевой)
+<li>Приостановить все треды на границе инструкции ещё раз
+<li>Выполнить синхронную часть снапшота (в памяти)
+<li>«Отпустить» остановленные треды
+<li>Спокойно доделывать асинхронную часть снапшота (ввод-вывод)
+</ol>
+<br>
+<p>Ко всему этому требуется ещё добавить блокировку того снапшота, на котором идёт сборка мусора, от удаления, а так же механизм, который позволяет держать не менее трёх частично перекрытых снапшотов — </p>
+<ul>
+<li>Старого, на котором собираем мусор
+<li>Более актуального, который полон и пригоден к рестарту
+<li>Последнего, который находится в процессе формирования
+</ul>
+<br>
+<p>А может быть и ещё нескольких, которые хранятся в режиме бекапа/time machine.</p>
+<br>
+<p>На сём позвольте поставить точку с запятой, и задать вопрос: какую статистику по состоянию объектной среды вы бы считали полезной собрать в процессе сборки мусора? Мы всё равно обходим объекты, можно провести тот или иной анализ относительно бесплатно.</p>
+
+
+
+          <a href="company/news/" class="backward-link">Вернуться в новости</a>
+        </div>
+    </div>
+  </div>
+<div class="news-list"><div class="blog_prev_entry">Предыдущая новость:</div><a href="company/news/«otkryitaya-mobilnaya-platforma»-i-dz-systems-formiruyut-ekosistemu-vokrug-sailfish-mobile-os-rus" class="news-list-item clearfix">
+  <span class="news-list-item__left">
+    <img src="upload/news/1750475.jpeg">
+  </span>
+  <span class="news-list-item__right">
+    <span class="news-list-item__date">19.06.2017</span>
+    <span class="news-list-item__title">«Открытая Мобильная Платформа» и DZ Systems формируют экосистему вокруг Sailfish Mobile OS RUS</span>
+    <span class="news-list-item__text">«Открытая Мобильная Платформа» и группа
+ИТ-компаний DZ Systems заключили партнерское соглашение по разработке
+бизнес-приложений под отечественную мобильную операционную систему
+Sailfish Mobile OS RUS.</span>
+  </span>
+</a></div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footer__container">
+    <a href="//dzsystems.ru" target="_blank" class="footer-logo">
+      <span class="footer-logo__text">входит в группу компаний</span><img src="/img/footer-logo.png" alt="DZ Systems">
+    </a>
+    <ul class="main-menu__list">
+      <li class="main-menu__item"><a href="/company/" class="main-menu__link">О компании</a></li>
+      <li class="main-menu__item"><a href="/projects/" class="main-menu__link">Проекты</a></li>
+      <li class="main-menu__item"><a href="/services/" class="main-menu__link">Услуги</a></li>
+      <li class="main-menu__item"><a href="/contacts/" class="main-menu__link">Контакты</a></li>
+    </ul>
+    <ul class="social-icons">
+
+      <li class="social-icons__item">
+        <a href="//vk.com/digitalzone" onclick="ga_event('vk_footer')" class="social-icons__link">
+          <img src="/img/vk.png" alt="">
+        </a>
+      </li>
+
+      <li class="social-icons__item">
+        <a href="//www.facebook.com/dz.ltd/" onclick="ga_event('fb_footer')" class="social-icons__link">
+          <img src="/img/fb-icon.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<script>var current_lang='ru';</script>
+<script src='/assets/template/jquery.min.js?v=1'></script>
+<script src='https://brokensquare.com/Code/jquery-flipster/dist/jquery.flipster.min.js'></script>
+<script src="/assets/template/flipster.js"></script>
+<script src="/assets/template/index.js?v=6"></script>
+<script src="/assets/template/bootstrap.js"></script>
+<script src="/assets/template/jquery.mobile.custom.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.11.1/validate.min.js"></script>
+<script src="/assets/template/pushy.min.js"></script>
+
+<script>
+$(".flipster__item").on("swiperight",function(){
+flipContainer.flipster('prev');
+});
+
+$(".flipster__item").on("swipeleft",function(){
+flipContainer.flipster('next');
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7551805-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Hotjar Tracking Code for e-legion.ru -->
+<script>
+    (function(f,b){
+        var c;
+        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+        f._hjSettings={hjid:40584, hjsv:4};
+        c=b.createElement("script");c.async=1;
+        c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+        b.getElementsByTagName("head")[0].appendChild(c); 
+    })(window,document);
+</script>
+
+<!— Yandex.Metrika counter —>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter22837186 = new Ya.Metrika({
+                    id:22837186,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/22837186" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>
+</body>
+</html>

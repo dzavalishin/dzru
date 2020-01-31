@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Роли на типовом проекте</title>
+    <base href="https://dz.ru/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="/assets/template/style.css">
+<link rel="icon" href="upload/favicon.png" type="image/png">
+<link rel="shortcut icon" href="upload/favicon.png" type="image/png">
+<meta name="yandex-verification" content="482e9ec138403639" />
+<meta name="verify-v1" content="4t8U6paTJ3k+hiUsl4tjJ/BF2qdxAACGrmHdn8C+H/I=" />
+<meta name="cmsmagazine" content="937ccc838a11f06e64779869cbd3c9b9" />
+<meta name="google-site-verification" content="VEc88_AHaoWW292tYQiEZlKSenhYJVPH55uJD-WWUFk" />
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/assets/template/pushy.css">
+
+<meta content="Разбираем состав команды на типовом проекте. Кто и за что должен отвечать, чтобы процесс разработки был приятным." name="description">
+<meta property="og:locale" content="ru_RU" />
+<link rel="image_src" href="https://dz.ru/upload/news/cary-grant-392931_960_720.jpg" type="image/jpeg" />
+
+<link rel="next" href="company/blog/roli-na-tipovom-proekte?page=2"/>
+</head>
+<body>
+<div class="content inner-page inner-page_news">
+<header class="main-header">
+    <div class="main-header__container clearfix">
+        <a href="/" class="main-header__logo">
+            <img src="img/dz.svg" style="width: 70px; height: 70px;" alt="" class="main-header__logo-img">
+        </a>
+        <nav class="main-menu">
+            <ul class="main-menu__list"><li class="main-menu__item first active"><a href="company/" class="main-menu__link" >О компании</a><ul class="menu__submenu level_1"><li class="menu__submenu-item"><a href="company/news/" class="menu__submenu__link" >Новости</a></li><li class="menu__submenu-item"><a href="company/blog/" class="menu__submenu__link" >Блог</a></li><li class="menu__submenu-item"><a href="company/clients/" class="menu__submenu__link" >Клиенты</a></li><li class="menu__submenu-item"><a href="company/partners/" class="menu__submenu__link" >Партнеры</a></li><li class="menu__submenu-item"><a href="company/persons/" class="menu__submenu__link" >Руководство</a></li><li class="menu__submenu-item"><a href="company/jobs/" class="menu__submenu__link" >Вакансии</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="company/jobs/java-senior-razrabotchik-(kazan)-17.08/" class="menu__submenu__link" >Java Senior разработчик (Казань)</a></li><li class="menu__submenu-item"><a href="company/jobs/vedushhij-sistemnyij-analitik-web" class="menu__submenu__link" >Ведущий системный аналитик (Москва)</a></li><li class="menu__submenu-item"><a href="company/jobs/net-developer18-92" class="menu__submenu__link" >.Net Developer (Москва)</a></li><li class="menu__submenu-item"><a href="company/jobs/java-middle-developer" class="menu__submenu__link" >Java Middle Developer</a></li><li class="menu__submenu-item"><a href="company/jobs/java-middle-developer-(ufa)" class="menu__submenu__link" >Java Middle Developer (Уфа)</a></li></ul></li></ul></li><li class="main-menu__item"><a href="projects/" class="main-menu__link" >Проекты</a></li><li class="main-menu__item"><a href="services/" class="main-menu__link" >Услуги</a><ul class="menu__submenu level_1"><li class="menu__submenu-item"><a href="services/solutions/" class="menu__submenu__link" >Разработка Информационных систем</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/solutions/erp-systems" class="menu__submenu__link" >ERP-системы</a></li><li class="menu__submenu-item"><a href="services/solutions/gis-systems/" class="menu__submenu__link" >Разработка ГИС-систем</a></li><li class="menu__submenu-item"><a href="services/solutions/bi-systems" class="menu__submenu__link" >Разработка BI систем</a></li><li class="menu__submenu-item"><a href="services/solutions/integrated-solutions" class="menu__submenu__link" >Разработка интеграционных решений</a></li><li class="menu__submenu-item"><a href="services/solutions/scada-systems" class="menu__submenu__link" >Разработка Scada систем</a></li><li class="menu__submenu-item"><a href="services/solutions/upravlenie-mobilnyim-personalom" class="menu__submenu__link" >Управление мобильным персоналом</a></li><li class="menu__submenu-item"><a href="services/solutions/user-interfejsyi-dlya-scada-sistem" class="menu__submenu__link" >User-интерфейсы для SCADA-систем</a></li><li class="menu__submenu-item"><a href="services/solutions/vyisokonagruzhennyie-informaczionnyie-sistemyi" class="menu__submenu__link" >Высоконагруженные информационные системы</a></li></ul></li><li class="menu__submenu-item"><a href="services/web/" class="menu__submenu__link" >Веб-разработка</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/web/vizualnyij-poisk-dlya-internet-magazinov" class="menu__submenu__link" >Визуальный поиск для интернет-магазинов</a></li><li class="menu__submenu-item"><a href="services/web/sozdanie-marketplejsa-2" class="menu__submenu__link" >DZ.Market: Технологическая платформа для магазинов и маркетплейсов</a></li><li class="menu__submenu-item"><a href="services/web/e-commerce" class="menu__submenu__link" >E-commerce проекты (решения для интернет-магазинов)</a></li><li class="menu__submenu-item"><a href="services/web/sistemyi-samoobsluzhivaniya-(lichnyij-kabinet)" class="menu__submenu__link" >Системы самообслуживания (личный кабинет)</a></li></ul></li><li class="menu__submenu-item"><a href="services/mobile/" class="menu__submenu__link" >Мобильная разработка</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/mobile/ios-mobile-apps-development" class="menu__submenu__link" >Разработка мобильных приложений под IOS</a></li><li class="menu__submenu-item"><a href="services/mobile/razrabotka-krossplatformennyh-mobilnyh-prilozheniy" class="menu__submenu__link" >Разработка кроссплатформенных мобильных приложений</a></li><li class="menu__submenu-item"><a href="services/mobile/android-mobile-apps-development" class="menu__submenu__link" >Разработка мобильных приложений под Android</a></li></ul></li><li class="menu__submenu-item"><a href="services/consulting/" class="menu__submenu__link" >Сервисы</a><ul class="menu__submenu level_2"><li class="menu__submenu-item"><a href="services/consulting/support" class="menu__submenu__link" >Техническая поддержка</a></li><li class="menu__submenu-item"><a href="services/consulting/outstaffing" class="menu__submenu__link" >Аутстаффинг</a></li></ul></li><li class="menu__submenu-item"><a href="services/frequency" class="menu__submenu__link" >Выделение полосы радиочастот</a></li><li class="menu__submenu-item"><a href="services/konstruktor-it-reshenij-aprentis" class="menu__submenu__link" >Конструктор ИТ-решений Апрентис</a></li></ul></li><li class="main-menu__item"><a href="os-phantom" class="main-menu__link" >ОС «Фантом»</a></li><li class="main-menu__item last"><a href="contacts" class="main-menu__link" >Контакты</a></li></ul>
+        </nav>
+        <button class="menu-btn"><span>&#9776;</span></button>
+        <div class="main-header__right">
+<div style="float:  left; padding:  11px 20px;">
+  <a href="/en" style="color: #fff;">EN</a> <span style="color: #fff;">/ RU</span>
+</div>
+            <div class="callback" data-toggle="modal" data-target="#myModal">Свяжитесь с нами</div>
+            <div class="main-header__contacts">
+                <a href="tel:+74952257693" onclick="ga_event('phone')" class="main-header__contacts-item">
+        +7 (495) 225-76-93
+        </a>
+                <a href="mailto:sales@dz.ru" onclick="ga_event('mailto')" class="main-header__contacts-item main-header__contacts-item_style-mail">sales@dz.ru</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade callback-modal" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content first">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Обратная связь</h4>
+            </div>
+            <div class="modal-body">
+                <form class="feedback-form">
+                    <div>
+                        <label for="name">ФИО:*</label>
+                        <input type="text" placeholder="введите текст" id="name">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="company">Компания:*</label>
+                        <input type="text" placeholder="введите текст" id="company">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="phone">Контактный телефон:* </label>
+                        <input type="text" placeholder="введите текст" id="phone">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="email">Контактный email:* </label>
+                        <input type="text" placeholder="введите текст" id="email">
+                        <div class="error-message"></div>
+                    </div>
+                    <div>
+                        <label for="message">Сообщение:* </label>
+                        <textarea class="message"></textarea>
+                        <div class="error-message"></div>
+                    </div>
+          <div>
+            <label class="tersm-label" for="terms">Подтверждаю согласие с <a href="/terms">условиями</a> обработки моих персональных данных* </label>
+            <input type="checkbox" required name="terms" id="terms">
+            <div class="error-message"></div>
+          </div>
+
+                    <p class="notify">*- обязательные поля</p>
+                    <p class="result"></p>
+                    <button class="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+        <div class="modal-content two">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <img src="/img/ok-icon.png" alt="">
+                <h4>Ваша заявка принята</h4>
+            </div>
+            <div class="modal-body">
+                <p>Спасибо! Наш менеджер свяжется с вами в ближайшее время</p>
+                <button class="submit" data-dismiss="modal" aria-label="Close">Назад</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="pushy pushy-left" data-focus="#first-link">
+    <div class="pushy-content">
+        <ul class="main-menu__list"><li class="main-menu__item first active"><a href="company/" class="main-menu__link" >О компании</a><ul class="menu__submenu"><li class="menu__submenu-item"><a href="company/news/" class="menu__submenu__link" >Новости</a></li><li class="menu__submenu-item"><a href="company/blog/" class="menu__submenu__link" >Блог</a></li><li class="menu__submenu-item"><a href="company/clients/" class="menu__submenu__link" >Клиенты</a></li><li class="menu__submenu-item"><a href="company/partners/" class="menu__submenu__link" >Партнеры</a></li><li class="menu__submenu-item"><a href="company/persons/" class="menu__submenu__link" >Руководство</a></li><li class="menu__submenu-item"><a href="company/jobs/" class="menu__submenu__link" >Вакансии</a></li></ul></li><li class="main-menu__item"><a href="projects/" class="main-menu__link" >Проекты</a></li><li class="main-menu__item"><a href="services/" class="main-menu__link" >Услуги</a><ul class="menu__submenu"><li class="menu__submenu-item"><a href="services/solutions/" class="menu__submenu__link" >Разработка Информационных систем</a></li><li class="menu__submenu-item"><a href="services/web/" class="menu__submenu__link" >Веб-разработка</a></li><li class="menu__submenu-item"><a href="services/mobile/" class="menu__submenu__link" >Мобильная разработка</a></li><li class="menu__submenu-item"><a href="services/consulting/" class="menu__submenu__link" >Сервисы</a></li><li class="menu__submenu-item"><a href="services/frequency" class="menu__submenu__link" >Выделение полосы радиочастот</a></li><li class="menu__submenu-item"><a href="services/konstruktor-it-reshenij-aprentis" class="menu__submenu__link" >Конструктор ИТ-решений Апрентис</a></li></ul></li><li class="main-menu__item"><a href="os-phantom" class="main-menu__link" >ОС «Фантом»</a></li><li class="main-menu__item last"><a href="contacts" class="main-menu__link" >Контакты</a></li></ul>
+    </div>
+</nav>
+
+<div class="site-overlay"></div>
+<main>
+  <div class="news-detail">
+    <div class="news-detail-item">
+        <img src="upload/news/cary-grant-392931_960_720.jpg" class="news-detail-item__img">
+        <div class="news-detail-item__content">
+          <div class="news-detail-item__date">18.08.2017</div>
+<h1 class="blog_h1">Роли на типовом проекте</h1>
+          <p>Разбирая проектные роли, надо четко отделять их от самого человека: сотрудник может выступать сразу в нескольких ипостасях, а также участвовать в одной разработке в роли А, а в другой — в роли Б. Совершая любое действие в работе, надо понимать от чьего имени это происходит.</p>
+<br>
+<h1>Список ролей</h1>
+<br>
+<p><b>Менеджер проекта, PM</b></p>
+
+<p>Создает и поддерживает план проекта, отвечает за его выполнение.</p>
+<ul>
+<li>Получает от разработчиков, аналитиков, тестеров, DevOps и других подразделений их части планов проекта, сводит и убеждается в их непротиворечивости.</li>
+<li>Проводит регулярное (еженедельное) ревью плана с клиентом и проектной командой.</li>
+<li>Корректирует план в соответствии с запросами на изменение.</li>
+<li>Пишет еженедельный проектный отчет.</li>
+<li>Ведет реестр рисков и эскалаций.</li>
+<li>В случае появления проблем, информирует клиента и команду; решает их в рамках бюджета или эскалирует.</li>
+<li>Отвечает за заполнение сотрудниками отчетов по затраченному времени и попадание проекта в срок и бюджет.</li>
+<li>По итогу проекта делает презентацию: успехи и вынесенный опыт.</li>
+<li>Принимает решения по премированию героев :)</li>
+</ul>
+<p>KPI — маржинальность проекта.</p>
+
+<p>В целом здесь не рассматривается ситуация, когда требуется более одного менеджера. Я рекомендую бить такие проекты на самостоятельные части. Тем не менее у нас был случай, когда мы вели 15 параллельных проектов в рамках заказчика и одной целевой системы, и в этом случае потребовалось построить иерархию менеджеров.</p>
+<br>
+<p><b>Аналитик</b></p>
+<p>Отвечает за написание и поддержание в актуальном состоянии требований. </p>
+<ul>
+<li>Проводит интервью со стейкхолдерами. </li>
+<li>Пишет требования, проводит их ревью со стейкхолдерами, архитектором и ведущими разработчиками.</li>
+<li>Участвует как ревьюер в проектировании верхнего уровня.</li>
+<li>Устно или письменно поясняет сотрудникам сложные места в требованиях (и по ходу обновляет их!).</li>
+<li>Проводит ревью тест-планов, поясняет тестерам сложные места и может принимать участие в тестировании критических мест проекта.</li>
+</ul>
+<p>Носитель эзотерических знаний и главный коммуникатор между командой и клиентом в части сути проекта.</p>
+
+<p>KPI - нулевой объем устной коммуникации на проекте типа «объясни мне, что ты тут написал», степень удовлетворенности заказчика реализованным проектом.</p>
+<br>
+<p><b>Ведущий аналитик</b></p>
+
+<p>В сложном проекте может быть группа аналитиков, тогда один назначается ведущим и отвечает, в том числе, и за документы коллег. </p>
+<ul>
+<li>Выполняет ревью документов и принимает участие в эскалациях и трудных местах.</li>
+<li>Выявляет (вместе с аккаунтом и менеджером проекта) стейкхолдеров.</li>
+</ul>
+<p>Если проект структурирован по направлениям или подсистемам, могут быть назначены ведущие аналитики подсистем.</p>
+<br>
+<p><b>Архитектор</b></p>
+<p>Может присутствовать частично при проработке архитектуры в самом начале и в режиме аудитора во время разработки. На большой проект должен быть выделен полностью. </p>
+<ul>
+<li>Отвечает за документы верхнего уровня (HLD), согласование архитектуры с ландшафтом и техническими требованиями заказчика. </li>
+<li>Структурирует проект, распределяет задачи между ведущими разработчиками, помогает им в тяжелых моментах.</li>
+</ul>
+<p>KPI — соответствие системы нефункциональным (нагрузочным) требованиям, легкость ее расширения и развития, отсутствие проблем при интеграции.</p>
+<br>
+<p><b>Ведущий разработчик, Тимлид</b></p>
+<p>На малом проекте (нет выделенного архитектора) ведущий разработчик отвечает за все задачи по разработке.</p>
+<ul>
+<li>Назначает разработчиков, проводит с ними ревью плана и получает от них коммитмент по реальности выполнения объемов работ.</li>
+<li>Принимает работы, выполняет ревью кода.</li>
+<li>Производит слияния веток в репозитории, отвечает за то, что в главную ветку попадает только оттестированный и соответствующий требованиям код.</li>
+<li>Принимает решения по технологиям, пишет проектные документы (HLD, LLD).</li>
+<li>Обучает линейных сотрудников и помогает им в трудных местах.</li>
+<li>По ночам пишет код :) </li>
+</ul>
+<br>
+<p><b>Разработчик</b></p>
+<p>Собственно разрабатывает код проекта. </p>
+<ul>
+<li>Читает требования, разбирает сложные участки с аналитиком, принимает от лида или архитектора письменные или устные проектные решения, при необходимости дает обратную связь по их разумности.</li>
+<li>Разрабатывает код компонент и юнит-тесты, прогоняет тесты, убеждается в соответствии реализованной функциональности требованиям. </li>
+<li>Получает от тестировщиков и кого попало тикеты в баг-трекере, помечает их как «это не ошибка, так и должно быть», исправляет ошибки, в сложных случаях принимает участие в тестировании.</li>
+</ul>
+<p>KPI — нулевое количество ошибок в коде.</p>
+
+<br>
+<p><b>Тестировщик</b></p>
+<p>Планирует работы по тестированию.</p>
+<ul>
+<li>Пишет тест-планы на основании требований.</li>
+<li>Проводит ручное и автоматическое функциональное тестирование (нагрузочное тестирование, как правило, делает DevOps).</li>
+<li>Формирует задачи в баг-трекере.</li>
+</ul>
+<p>KPI — нулевое количество репортов об ошибках от клиента.</p>
+
+<br>
+<p><b>Ведущий тестировщик</b></p>
+
+<p>Аналогично аналитикам, тестировщики могут быть сформированы в группы по подсистемам проекта или методам тестирования. Если тестировщиков более одного, должен быть назначен ведущий.</p>
+
+<br>
+<p><b>Системный администратор / сотрудник DevOps</b></p>
+
+<p>Отвечает за ту часть архитектуры, которая относится к физическому распределению систем по серверам, организацию взаимодействия систем, деплоймент, выявление проблем на боевой и тестовой средах.</p>
+<ul>
+<li>Пишет руководство по развертыванию и администрированию системы. </li>
+<li>Взаимодействует с соответствующими службами заказчика.</li>
+<li>На этапе продажи и расширения системы отвечает за требования к составу и структуре аппаратных средств системы (sizing).</li>
+<li>Принимает участие в планировании и работах по миграции и синхронизации данных.</li>
+<li>Дырявит отверстия в файерволах и прокладывает VPN-ы, носит свитер и бороду, матерится тихо, но весомо.</li>
+</ul>
+<p>Должен быть способен без программистов развернуть систему.</p>
+
+<p>KPI — попадание в план по задачам разворачивания системы.</p>
+
+<br>
+<p><b>Продавец</b></p>
+
+<p>Создает у покупателя ощущение, что не подписание контракта прямо здесь и сейчас может привести к катастрофе планетарного масштаба.</p>
+<ul>
+<li>Выявляет основные бизнес-потребности клиента.</li>
+<li>Проводит с производством (архитектор, ведущий аналитик) работу по очерчиванию силуэта системы, формирует скоуп проекта, вытрясает из производства вменяемую оценку стоимости работ и списки рисков.</li>
+<li>Доносит до клиента, что клиент тоже будет много работать на проекте. </li>
+<li>Формирует контракт, согласует его с клиентом, производством и подразделением гарантийной и постгарантийной поддержки.</li>
+</ul>
+<br>
+<p><b>Аккаунт</b></p>
+<p>Отвечает за отношения с клиентом за рамками контракта. Любит его больше себя, живет его болью и радостью, и обеспечивает глубокое проникновение боли клиента (по идее и радости тоже, но руки у него до этого редко доходят) до проектной команды.</p>
+
+<p>Если цель менеджера проекта — исполнить контракт в срок и деньги, то есть после подписания акта — трава не расти, то аккаунт как раз видит и строит отношения с клиентом вообще, с расчетом на дальнейшее контрактование и новые работы.</p>
+
+<p>KPI аккаунта — рост оборота контрактов по его клиенту и общая маржинальность. В силу этого аккаунт может принимать решения о перебалансировке объема работ между несколькими проектами для одного клиента.</p>
+
+<br>
+<p><b>Начальник отдела разработки/аналитики</b></p>
+<p>Принимает участие в формировании проектных команд, отвечает за квалификацию сотрудников, проводит самостоятельно или организует обучение, следит за карьерным ростом сотрудников, принимает участие в бюджетировании и общем плане компании по количеству сотрудников с теми или иными компетенциями, работает руками на авралах, если не умеет — привозит бойцам пиццу и наливает кофе. Отвечает за комфорт на рабочем месте.</p>
+<br>
+<p><b>Директор, Генеральный директор, Директор группы компаний, Президент и Заместитель Бога на Земле.</b></p>
+<p>Во время аврала уметь погреть пиццу и сварить кофе вот этому чуваку, который по локоть в крови разбирается в глюках Того Кода, Который Не Мы Написали. Потому что наш-то код точно работает правильно. Смотреть на клиента укоризненно, когда клиент пытается в этом усомниться.</p>
+<br>
+<p><h1>Типовые совмещения ролей</h1></p>
+<ul>
+<li>Менеджер+ведущий разработчик — грешновато.</li>
+<li>Менеджер+аналитик — приемлемо на микропроекте.</li>
+<li>Менеджер+ведущий разработчик+аналитик — не делайте так.</li>
+<li>Аналитик+тестер — нормально, даже хорошо, но дороговато.</li>
+<li>Архитектор+ведущий разработчик — норма на небольших проектах.</li>
+<li>Разработчик+тестировщик — нельзя.</li>
+<li>Продавец+эккаунт — зависит, но вообще так бывает часто.</li>
+<li>Продавец+иное—- не делайте так. Хотя был случай, когда продавец отработал проджектом, и никого не убил.</li>
+<li>Архитектор+аналитик — кажется приемлемым, но в целом плохо. Эти две роли должны быть немного антагонистичны, а в одном человеке это плохо сочетается.</li>
+</ul>
+<a href="company/blog/" class="backward-link">Вернуться в блог</a>
+<div class="blog_addon_list clear">
+Тэги: <a class="blog_tag" href="/company/blog/?tag=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%9F%D0%9E">Разработка ПО</a><br>
+</div>
+        </div>
+    </div>
+  </div>
+<div class="news-list">
+
+<div class="blog_prev_entry">Похожие записи:</div><a href="company/blog/kratchajshij-put-k-serdczu-polzovatelya" class="news-list-item clearfix">
+  <span class="news-list-item__left">
+    <img src="upload/news/train-1668339_960_720.jpg">
+  </span>
+  <span class="news-list-item__right">
+    <span class="news-list-item__title">Кратчайший путь к сердцу пользователя</span>
+    <span class="news-list-item__text">Юзабилити из неотъемлемой части работы над большинством проектов, превратилось в самоцель. Сомневаемся, что это правильно и рассуждаем об идеальном интерфейсе.</span>
+<span class="blog_addon_list">
+Дата: 09.08.2017 | Тэги: <span class="blog_tag" data-href="/company/blog/?tag=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%9F%D0%9E">Разработка ПО</span><br>
+</span>
+  </span>
+<span class="clearfix"></span>
+</a>
+<a href="company/blog/matricza-trassirovki" class="news-list-item clearfix">
+  <span class="news-list-item__left">
+    <img src="upload/news/map-846083_1920.jpg">
+  </span>
+  <span class="news-list-item__right">
+    <span class="news-list-item__title">Матрица трассировки</span>
+    <span class="news-list-item__text">Визуализация связей между артефактами в проекте — походная карта для всех участников разработки. Как она выглядит, каковы ориентиры и как не заблудиться? Рассказываем! </span>
+<span class="blog_addon_list">
+Дата: 17.07.2017 | Тэги: <span class="blog_tag" data-href="/company/blog/?tag=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%9F%D0%9E">Разработка ПО</span><br>
+</span>
+  </span>
+<span class="clearfix"></span>
+</a>
+</main>
+</div>
+<footer class="footer">
+  <div class="footer__container">
+    <a href="//dzsystems.ru" target="_blank" class="footer-logo">
+      <span class="footer-logo__text">входит в группу компаний</span><img src="/img/footer-logo.png" alt="DZ Systems">
+    </a>
+    <ul class="main-menu__list">
+      <li class="main-menu__item"><a href="/company/" class="main-menu__link">О компании</a></li>
+      <li class="main-menu__item"><a href="/projects/" class="main-menu__link">Проекты</a></li>
+      <li class="main-menu__item"><a href="/services/" class="main-menu__link">Услуги</a></li>
+      <li class="main-menu__item"><a href="/contacts/" class="main-menu__link">Контакты</a></li>
+    </ul>
+    <ul class="social-icons">
+
+      <li class="social-icons__item">
+        <a href="//vk.com/digitalzone" onclick="ga_event('vk_footer')" class="social-icons__link">
+          <img src="/img/vk.png" alt="">
+        </a>
+      </li>
+
+      <li class="social-icons__item">
+        <a href="//www.facebook.com/dz.ltd/" onclick="ga_event('fb_footer')" class="social-icons__link">
+          <img src="/img/fb-icon.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+<script>var current_lang='ru';</script>
+<script src='/assets/template/jquery.min.js?v=1'></script>
+<script src='https://brokensquare.com/Code/jquery-flipster/dist/jquery.flipster.min.js'></script>
+<script src="/assets/template/flipster.js"></script>
+<script src="/assets/template/index.js?v=6"></script>
+<script src="/assets/template/bootstrap.js"></script>
+<script src="/assets/template/jquery.mobile.custom.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.11.1/validate.min.js"></script>
+<script src="/assets/template/pushy.min.js"></script>
+
+<script>
+$(".flipster__item").on("swiperight",function(){
+flipContainer.flipster('prev');
+});
+
+$(".flipster__item").on("swipeleft",function(){
+flipContainer.flipster('next');
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7551805-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Hotjar Tracking Code for e-legion.ru -->
+<script>
+    (function(f,b){
+        var c;
+        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+        f._hjSettings={hjid:40584, hjsv:4};
+        c=b.createElement("script");c.async=1;
+        c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+        b.getElementsByTagName("head")[0].appendChild(c); 
+    })(window,document);
+</script>
+
+<!— Yandex.Metrika counter —>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter22837186 = new Ya.Metrika({
+                    id:22837186,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/22837186" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>
+</body>
+</html>
